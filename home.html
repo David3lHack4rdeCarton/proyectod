@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0d0f36;
+            color: #fff;
+        }
+
+        .carousel-container {
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .carousel-item img {
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo-uta.png" alt="Logo" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Género
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="genero/genero.php">T.S.U. en Desarrollo de Negocios Área Mercadotecnia</a></li>
+                        <li><a class="dropdown-item" href="#">Licenciatura en Innovación de Negocios y Mercadotecnia</a></li>
+                        <li><a class="dropdown-item" href="#">T.S.U. en Gastronomía</a></li>
+                        <li><a class="dropdown-item" href="#">Licenciatura en Gastronomía</a></li>
+                        <li><a class="dropdown-item" href="#">T.S.U. en Mantenimiento Industrial Área Instalaciones</a></li>
+                        <li><a class="dropdown-item" href="#">Ingeniería en Mantenimiento Industrial</a></li>
+                        <li><a class="dropdown-item" href="#">T.S.U. en Tecnologías de la Información Área Desarrollo de Software Multiplataforma</a></li>
+                        <li><a class="dropdown-item" href="#">Ingeniería en Desarrollo y Gestión de Software</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="estudiante/infest.php">Estudiante</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="consulta/consulta.html">Consulta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="consulta/desercion.php">Deserción</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Cerrar Sesión</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/imagen2.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/UTA-CARRERA-FUTURO.jpeg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Ing-De-Ges-Soft-800x445.png" class="d-block w-100" alt="Imagen 3">
+            </div>
+            <!-- Agrega más imágenes según sea necesario -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
